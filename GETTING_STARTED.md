@@ -112,13 +112,11 @@ Save each SQL query as a separate file under `submission/sql/`:
 submission/
 └── sql/
     ├── query_1.sql    # Revenue Trend Analysis
-    ├── query_2.sql    # Customer Cohort Retention
-    ├── query_3.sql    # Seller Performance Scorecard
-    └── query_4.sql    # Geographic Demand and Fulfillment Gap
+    └── query_2.sql    # Seller Performance Scorecard
 ```
 
 Each file should contain a single query written against the Gold layer table names
-(`fact_order_items`, `dim_customers`, `dim_products`, `dim_sellers`, `dim_date`, `dim_geography`).
+(`fact_order_items`, `dim_customers`, `dim_products`, `dim_sellers`).
 
 ---
 
